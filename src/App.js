@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './index';
 // import './index';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -9,10 +10,10 @@ import {BrowserRouter as Router,
   Switch, 
   Link,
 } from 'react-router-dom';
+import '../node_modules/'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-node_modules/bootstrap/dist/css/bootstrap.min.css
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Home from './routes/Home'
 import About from './routes/About'
 import Finances from './routes/Finances'
